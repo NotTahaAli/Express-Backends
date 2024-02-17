@@ -1,0 +1,40 @@
+{
+  "name": "@mtaha-ali/create-backend",
+  "version": "1.0.0",
+  "description": "Command Line Tool to create an Express Backend Template",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "bin": {
+    "create-backend": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-tahaali/Create-Backend.git"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "postgres",
+    "template",
+    "backend",
+    "create"
+  ],
+  "author": "Muhammad Taha Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-tahaali/Create-Backend/issues"
+  },
+  "homepage": "https://github.com/m-tahaali/Create-Backend#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.19",
+    "@types/shelljs": "^0.8.15",
+    "typescript": "^5.3.3"
+  }
+}

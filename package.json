@@ -1,6 +1,6 @@
 {
   "name": "@mtaha-ali/create-backend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Command Line Tool to create an Express Backend Template",
   "main": "dist/index.js",
   "scripts": {
